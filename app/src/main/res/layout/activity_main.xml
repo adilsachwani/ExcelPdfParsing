@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eeeeee">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:id="@+id/excel_button"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:text="Excel"
+            android:textColor="@color/colorSecondary"
+            android:textSize="50sp"
+            android:onClick="openExcel"/>
+
+        <Button
+            android:id="@+id/pdf_button"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:text="pdf"
+            android:textColor="@color/colorSecondary"
+            android:textSize="50sp"
+            android:onClick="openPdf"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
