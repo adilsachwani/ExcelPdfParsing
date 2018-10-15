@@ -35,8 +35,6 @@ public class PdfActivity extends AppCompatActivity {
         new MaterialFilePicker()
                 .withActivity(this)
                 .withRequestCode(1000)
-                .withFilter(Pattern.compile(".*\\.pdf$")) // Filtering files and directories by file name using regexp
-                .withFilterDirectories(true)
                 .withHiddenFiles(true)
                 .start();
     }
